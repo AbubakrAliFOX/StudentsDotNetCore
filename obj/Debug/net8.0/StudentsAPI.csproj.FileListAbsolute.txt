@@ -30,3 +30,4 @@ E:\Downloads\WebDev\Demos\StudentsAPI\obj\Debug\net8.0\refint\StudentsAPI.dll
 E:\Downloads\WebDev\Demos\StudentsAPI\obj\Debug\net8.0\StudentsAPI.pdb
 E:\Downloads\WebDev\Demos\StudentsAPI\obj\Debug\net8.0\StudentsAPI.genruntimeconfig.cache
 E:\Downloads\WebDev\Demos\StudentsAPI\obj\Debug\net8.0\ref\StudentsAPI.dll
+E:\Downloads\WebDev\Demos\StudentsAPI\obj\Debug\net8.0\StudentsAPI.sourcelink.json

@@ -2,7 +2,7 @@
   {
     "ContainingType": "StudentsAPI.Controllers.StudentController",
     "Method": "GetAllStudents",
-    "RelativePath": "api/Students",
+    "RelativePath": "api/Students/All",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -10,6 +10,59 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[StudentsAPI.Model.Student, StudentsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetAllStudents"
+  },
+  {
+    "ContainingType": "StudentsAPI.Controllers.StudentController",
+    "Method": "GetPassedStudents",
+    "RelativePath": "api/Students/Passed",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[StudentsAPI.Model.Student, StudentsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetPassedStudents"
+  },
+  {
+    "ContainingType": "StudentsAPI.Controllers.StudentController",
+    "Method": "GetStudentById",
+    "RelativePath": "api/Students/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "StudentsAPI.Model.Student",
         "MediaTypes": [
           "text/plain",
           "application/json",
